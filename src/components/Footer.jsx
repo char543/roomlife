@@ -107,7 +107,7 @@ const submitEmail = async (e) => {
           </div>
         </div>
         <div className="z-10">
-          <span className="footer-title">Newsletter</span>
+          <span className="footer-title">For Tickets, Updates & Guest List</span>
           <div className="form-control w-[280px] md:w-80">
             <label className="label">
               <span className="label-text">Enter your email address</span>
@@ -121,7 +121,7 @@ const submitEmail = async (e) => {
                 value={mailerState.email}
               />
               <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-                Subscribe
+                Add Me!
               </button>
             </form>
           </div>
