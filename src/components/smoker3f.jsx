@@ -64,35 +64,6 @@ function CanvasWrap() {
             intensity={0.25}
             position={[-1, 0, 1]}
           />
-          {/* <ambientLight color="#00dddd" intensity={0.5} /> */}
-          {/* <directionalLight
-          color="#ff1100"
-          intensity={0.2}
-          position={[0, 0, -200]}
-          rotation={[1, 0, 0]}
-        /> */}
-          {/* <pointLight
-          // color="#d40027"
-          color="#00dddd"
-          intensity={30}
-          position={[-200, 0, -40]}
-          distance={500}
-          decay={1.5}
-        /> */}
-          {/* <pointLight
-          color="#d8547e"
-          intensity={30}
-          position={[100, 0, -40]}
-          distance={500}
-          decay={1}
-        />
-        <pointLight
-          color="#ff0048"
-          intensity={30}
-          position={[300, 0, -50]}
-          distance={500}
-          decay={1.5}
-        /> */}
           <Suspense fallback={null}>
             <Smoke opacity="0.02" />
           </Suspense>
