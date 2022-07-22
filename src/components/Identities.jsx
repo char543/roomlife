@@ -14,7 +14,7 @@ function Identities() {
         <div className="cardContainer flex items-center flex-col flex-wrap mb-16 box-content sm:flex-row sm:justify-center sm:w-full">
           <Card className="w-[256px] m-4 min-w-[256px]">
             <Card.Image
-              className="px-14 py-20 h-[180px]"
+              className="px-14 py-20 h-[180px] bg-white bg-opacity-5"
               src="circuit.png"
               alt="Circuit"
             />
@@ -59,7 +59,7 @@ function Identities() {
 
           <Card className="w-[256px] m-4 min-w-[256px]">
             <Card.Image
-              className="px-14 py-20 h-[180px]"
+              className="px-14 py-20 h-[180px] bg-white bg-opacity-5"
               src="circuit.png"
               alt="Circuit"
             />
