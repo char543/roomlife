@@ -11,7 +11,7 @@ function Identities() {
 
         {/*  */}
 
-        <div className="cardContainer flex justify-start items-center flex-col flex-wrap mb-16 box-content sm:flex-row sm:justify-center sm:w-full">
+        <div className="cardContainer flex items-center flex-col flex-wrap mb-16 box-content sm:flex-row sm:justify-center sm:w-full">
           <Card className="w-[256px] m-4 min-w-[256px]">
             <Card.Image
               className="px-14 py-20 h-[180px]"
