@@ -49,10 +49,6 @@ function Footer() {
       });
   };
 
-  const hideSumo = document.querySelector(".powered-by-sumo")
-
-  console.log(hideSumo);
-
   return (
     <>
       <footer className="footer footer-center p-5 text-neutral-content h-screen">
@@ -117,7 +113,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="z-10">
+        {/* <div className="z-10">
           <span className="footer-title">
             For Tickets, Updates & Guest List
           </span>
@@ -138,7 +134,7 @@ function Footer() {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
 
         <span data-sumome-listbuilder-embed-id="5424fa13a5f642a4065c37ef100edb67e64a1de0ae111cb04d19880a6e7b531a"></span>
       </footer>
