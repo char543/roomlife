@@ -49,6 +49,10 @@ function Footer() {
       });
   };
 
+  const hideSumo = document.querySelector(".powered-by-sumo")
+
+  console.log(hideSumo);
+
   return (
     <>
       <footer className="footer footer-center p-5 text-neutral-content h-screen">
