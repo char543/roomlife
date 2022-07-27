@@ -1,53 +1,53 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Footer() {
   //setup useState for mailer
 
-  const [mailerState, setMailerState] = useState({
-    email: "",
-    name: "",
-    message: "",
-  });
+  // const [mailerState, setMailerState] = useState({
+    // email: "",
+    // name: "",
+    // message: "",
+  // });
 
   //function to handle the state
 
-  function handleStateChange(e) {
-    setMailerState((prevState) => ({
-      ...prevState,
-      [e.target.name]: e.target.value,
-    }));
-  }
+  // function handleStateChange(e) {
+    // setMailerState((prevState) => ({
+      // ...prevState,
+      // [e.target.name]: e.target.value,
+    // }));
+  // }
 
   //function to post to the route
 
-  const submitEmail = async (e) => {
-    e.preventDefault();
-    console.log({ mailerState });
-    const response = await fetch("http://localhost:3001/send", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify({ mailerState }),
-    })
-      .then((res) => res.json())
-      .then(async (res) => {
-        const resData = await res;
-        console.log(resData);
-        if (resData.status === "success") {
-          alert("Message Sent");
-        } else if (resData.status === "fail") {
-          alert("Message failed to send");
-        }
-      })
-      .then(() => {
-        setMailerState({
-          email: "",
-          name: "",
-          message: "",
-        });
-      });
-  };
+  // const submitEmail = async (e) => {
+    // e.preventDefault();
+    // console.log({ mailerState });
+    // const response = await fetch("http://localhost:3001/send", {
+      // method: "POST",
+      // headers: {
+        // "Content-type": "application/json",
+      // },
+      // body: JSON.stringify({ mailerState }),
+    // })
+      // .then((res) => res.json())
+      // .then(async (res) => {
+        // const resData = await res;
+        // console.log(resData);
+        // if (resData.status === "success") {
+          // alert("Message Sent");
+        // } else if (resData.status === "fail") {
+          // alert("Message failed to send");
+        // }
+      // })
+      // .then(() => {
+        // setMailerState({
+          // email: "",
+          // name: "",
+          // message: "",
+        // });
+      // });
+  // };
 
   return (
     <>
