@@ -180,3 +180,7 @@
 a.powered-by-sumo {
   display: none !important;
 }
+
+#root>div.drawer.absolute.z-10>div.drawer-content>footer>div.sumo-form-wrapper.listbuilder-popup.listbuilder-popup-embedded>div>div>div>div>div:nth-child(8)>a{
+  display: none !important;
+}
