@@ -177,6 +177,6 @@
   z-index:-1;
 }
 
-.powered-by-sumo {
-  display: none;
+a.powered-by-sumo {
+  display: none !important;
 }
