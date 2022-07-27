@@ -176,3 +176,7 @@
 .drawer-overlay{
   z-index:-1;
 }
+
+.powered-by-sumo {
+  display: none;
+}
