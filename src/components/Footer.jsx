@@ -136,7 +136,7 @@ function Footer() {
           </div>
         </div> */}
 
-       <span data-sumome-listbuilder-embed-id="fd79983d3808fe268553fe62e04da2a4624c95ed3c9ec490dd966003fdf4c6c3"></span>
+       <span className="hidden" data-sumome-listbuilder-embed-id="fd79983d3808fe268553fe62e04da2a4624c95ed3c9ec490dd966003fdf4c6c3"></span>
       </footer>
     </>
   );
