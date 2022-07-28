@@ -9,21 +9,7 @@ function Identities() {
           Identities
         </p>
         <div className="cardContainer flex items-center flex-col flex-wrap mb-16 box-content sm:flex-row sm:justify-center sm:w-full">
-          <Card className="w-[256px] m-4 min-w-[256px]">
-            <Card.Image
-              className="px-14 py-20 h-[180px] bg-white bg-opacity-5"
-              src="circuit.png"
-              alt="Circuit"
-            />
-            <Card.Body>
-              <Card.Title tag="h2">Room Life!</Card.Title>
-              <p>Check out the amazing Room Life brand now!</p>
-              <Card.Actions className="justify-start py-2 mt-4 -mb-4">
-                <Button color="primary">View Now</Button>
-              </Card.Actions>
-            </Card.Body>
-          </Card>
-
+          
           <Card className="w-[256px] m-4 min-w-[256px]">
             <Card.Image
               className="object-fill w-full h-[180px]"
