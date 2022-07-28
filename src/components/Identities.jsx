@@ -8,9 +8,6 @@ function Identities() {
         <p className="z-20 text-5xl text-white font-bold m-0 p-0 mb-12">
           Identities
         </p>
-
-        {/*  */}
-
         <div className="cardContainer flex items-center flex-col flex-wrap mb-16 box-content sm:flex-row sm:justify-center sm:w-full">
           <Card className="w-[256px] m-4 min-w-[256px]">
             <Card.Image
@@ -21,7 +18,7 @@ function Identities() {
             <Card.Body>
               <Card.Title tag="h2">Room Life!</Card.Title>
               <p>Check out the amazing Room Life brand now!</p>
-              <Card.Actions className="justify-end py-2">
+              <Card.Actions className="justify-start py-2 mt-4 -mb-4">
                 <Button color="primary">View Now</Button>
               </Card.Actions>
             </Card.Body>
@@ -36,7 +33,7 @@ function Identities() {
             <Card.Body>
               <Card.Title tag="h2">Nights Journey!</Card.Title>
               <p>Check out the amazing Nights Journey now!</p>
-              <Card.Actions className="justify-end py-2">
+              <Card.Actions className="justify-start py-2 mt-4 -mb-4">
                 <Button color="primary">View Now</Button>
               </Card.Actions>
             </Card.Body>
@@ -49,9 +46,9 @@ function Identities() {
               alt="room"
             />
             <Card.Body>
-              <Card.Title tag="h2">Room.pm</Card.Title>
+              <Card.Title tag="h2">Room.pm!</Card.Title>
               <p>Check out the amazing room.pm now!</p>
-              <Card.Actions className="justify-end py-2">
+              <Card.Actions className="justify-start py-2 mt-4 -mb-4">
                 <Button color="primary">View Now</Button>
               </Card.Actions>
             </Card.Body>
@@ -66,13 +63,12 @@ function Identities() {
             <Card.Body>
               <Card.Title tag="h2">Circuit!</Card.Title>
               <p>Check out the amazing circuit.global now!</p>
-              <Card.Actions className="justify-end py-2">
+              <Card.Actions className="justify-start py-2 mt-4 -mb-4">
                 <Button color="primary">View Now</Button>
               </Card.Actions>
             </Card.Body>
           </Card>
         </div>
-        {/*  */}
       </div>
     </>
   );
