@@ -9,7 +9,7 @@ function Identities() {
 					Identities
 				</p>
 
-				<div className="wrapper flex flex-col items-center sm:flex-row">
+				<div className="wrapper flex flex-col items-center md2:flex-row">
 					<div className="flex flex-col items-center gap-4 m-8">
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center">
 							<a href="https://nightsjourney.com">
@@ -31,7 +31,7 @@ function Identities() {
 					</div>
 
 					<div className="flex flex-col items-center gap-4 m-8">
-						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center bg-gray-500 rounded">
+						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center rounded">
 							<a href="https://circuit.global">
 								<img
 									className="max-w-[200px] min-w-[50px] basis-[70%] max-h-[80px] px-6"
