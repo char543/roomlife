@@ -10,13 +10,15 @@ function Identities() {
 				</p>
 
 				<div className="wrapper flex flex-col items-center sm:flex-row">
-					<div className="flex flex-col items-center gap-4">
+					<div className="flex flex-col items-center gap-4 m-8">
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center">
-							<img
-								className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded"
-								src="nightsjourney.jpg"
-								alt="nightsjourney"
-							/>
+							<a href="https://nightsjourney.com">
+								<img
+									className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded"
+									src="nightsjourney.jpg"
+									alt="nightsjourney"
+								/>
+							</a>
 						</div>
 						<h1>
 							<a
@@ -28,13 +30,15 @@ function Identities() {
 						</h1>
 					</div>
 
-					<div className="flex flex-col items-center gap-4">
+					<div className="flex flex-col items-center gap-4 m-8">
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center bg-gray-500 rounded">
-							<img
-								className="max-w-[200px] min-w-[50px] basis-[70%] max-h-[80px] px-6"
-								src="circuit.png"
-								alt="Circuit"
-							/>
+							<a href="https://circuit.global">
+								<img
+									className="max-w-[200px] min-w-[50px] basis-[70%] max-h-[80px] px-6"
+									src="circuit.png"
+									alt="Circuit"
+								/>
+							</a>
 						</div>
 						<h1>
 							<a
@@ -46,13 +50,15 @@ function Identities() {
 						</h1>
 					</div>
 
-					<div className="flex flex-col items-center gap-4">
+					<div className="flex flex-col items-center gap-4 m-8">
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center">
-							<img
-								className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded bg-white p-4 px-8"
-								src="room.jpg"
-								alt="room"
-							/>
+							<a href="https://room.pm">
+								<img
+									className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded bg-white p-4 px-8"
+									src="room.jpg"
+									alt="room"
+								/>
+							</a>
 						</div>
 						<h1>
 							<a className="basis-[30%]" href="https://room.pm">
