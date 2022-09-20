@@ -14,7 +14,7 @@ function Identities() {
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center">
 							<a href="https://nightsjourney.com">
 								<img
-									className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded"
+									className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded fill-white hover:fill-cyan-700"
 									src="nightsjourney.svg"
 									alt="nightsjourney"
 								/>
