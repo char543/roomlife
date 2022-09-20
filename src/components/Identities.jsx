@@ -18,7 +18,14 @@ function Identities() {
 								alt="nightsjourney"
 							/>
 						</div>
-						<h1 className="flex basis-[30%]">Nights Journey</h1>
+						<h1>
+							<a
+								className="basis-[30%]"
+								href="https://nightsjourney.com"
+							>
+								Nights Journey
+							</a>
+						</h1>
 					</div>
 
 					<div className="flex flex-col items-center gap-4">
@@ -29,18 +36,29 @@ function Identities() {
 								alt="Circuit"
 							/>
 						</div>
-						<h1 className="flex basis-[30%]">Circuit</h1>
+						<h1>
+							<a
+								className="basis-[30%]"
+								href="https://circuit.global"
+							>
+								Circuit
+							</a>
+						</h1>
 					</div>
 
 					<div className="flex flex-col items-center gap-4">
 						<div className="flex flex-col basis-[70%] min-h-[150px] justify-center items-center">
 							<img
-								className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded bg-white p-4"
+								className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded bg-white p-4 px-8"
 								src="room.jpg"
 								alt="room"
 							/>
 						</div>
-						<h1 className="basis-[30%]">Room</h1>
+						<h1>
+							<a className="basis-[30%]" href="https://room.pm">
+								Room
+							</a>
+						</h1>
 					</div>
 				</div>
 			</div>
