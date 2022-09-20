@@ -15,7 +15,7 @@ function Identities() {
 							<a href="https://nightsjourney.com">
 								<img
 									className="max-w-[200px] basis-[70%] min-w-[200px] min-h-[150px] max-h-[100px] rounded"
-									src="nightsjourney.jpg"
+									src="nightsjourney.svg"
 									alt="nightsjourney"
 								/>
 							</a>
